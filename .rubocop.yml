@@ -1,0 +1,9 @@
+AllCops:
+  Exclude:
+    - Rakefile
+    - Berksfile
+    - metadata.rb
+    - vendor/**/*
+    - spec/**/*
+    - test/**/*
+    - .kitchen/**/*
