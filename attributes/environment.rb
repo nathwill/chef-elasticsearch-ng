@@ -8,5 +8,5 @@ default['elasticsearch']['env'].tap do |e|
   e['conf_dir'] = '/etc/elasticsearch'
   e['conf_file'] = '/etc/elasticsearch/elasticsearch.yml'
   e['es_user'] = 'elasticsearch'
-  e['es_heap_size'] = "#{(node.memory.total.to_i * 0.6).floor / 1024}m"
+  e['es_heap_size'] = "#{(node['memory']['total'].to_i * 0.6).floor / 1024}m"
 end

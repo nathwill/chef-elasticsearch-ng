@@ -3,7 +3,7 @@
 # Recipe:: cluster
 #
 
-es_nodes = search(:node, node['elasticsearch']['search_query']).map do |n|
+es_nodes = search(:node, node['elasticsearch']['search_query']).map do |n| # ~FC003
   n['ipaddress']
 end
 
