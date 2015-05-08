@@ -4,7 +4,7 @@ maintainer_email 'nath.e.wilL@gmail.com'
 license          'apache2'
 description      'Installs/Configures elasticsearch-ng'
 long_description 'Installs/Configures elasticsearch-ng'
-version          '0.1.1'
+version          '0.2.0'
 
 depends 'apt'
 depends 'yum'
