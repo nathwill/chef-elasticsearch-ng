@@ -1,0 +1,9 @@
+{
+  "name": "es02",
+  "chef_environment": "_default",
+  "run_list": ["role[es_cluster]"],
+  "automatic": {
+    "ipaddress": "12.34.56.89",
+    "hostname": "es02"
+  }
+}
