@@ -15,4 +15,6 @@ suites:
   - name: default
     run_list:
       - recipe[elasticsearch-ng::default]
-    attributes:
+  - name: cluster
+    run_list:
+      - recipe[elasticsearch-ng::cluster]
