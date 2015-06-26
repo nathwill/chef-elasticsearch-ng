@@ -38,3 +38,18 @@ provides elasticsearch service resource
 performs the same operations as the default recipe, after
 adding setting simple cluster configuration attributes
 based on search results.
+
+## elasticsearch-ng::plugins
+
+configures elasticsearch plugins described in databag or node
+
+Example:
+
+ { elasticsearch: {
+ plugins: {
+ 'karmi/elasticsearch-paramedic' => {},
+ 'lukas-vlcek/bigdesk' => { 'version' => '1.0.0' },
+ 'hunspell' => { 'url' => 'https://github.com/downloads/...' }
+ 		}
+ 	}	
+ }
