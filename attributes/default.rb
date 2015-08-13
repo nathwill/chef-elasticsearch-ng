@@ -5,6 +5,8 @@ default['elasticsearch'].tap do |es|
   es['version'] = 1.7
   es['base_url'] = 'http://packages.elasticsearch.org'
 
+  es['skip_restart'] = true
+
   es['search_query'] =
     "chef_environment:#{node.chef_environment} AND role:es_cluster"
 
