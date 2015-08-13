@@ -2,7 +2,7 @@
 default['java']['jdk_version'] = 7
 
 default['elasticsearch'].tap do |es|
-  es['version'] = 1.5
+  es['version'] = 1.7
   es['base_url'] = 'http://packages.elasticsearch.org'
 
   es['search_query'] =
