@@ -1,6 +1,6 @@
 # elasticsearch-ng
 
-* THIS IS DEPRECATED! SEE THE [OFFICIAL COOKBOOK][cb] INSTEAD *
+## THIS IS DEPRECATED! SEE THE [OFFICIAL COOKBOOK][cb] INSTEAD
 
 A simplified elasticsearch cookbook designed to produce
 the minimum viable configuration, while still providing
