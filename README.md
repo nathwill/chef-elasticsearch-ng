@@ -1,5 +1,7 @@
 # elasticsearch-ng
 
+* THIS IS DEPRECATED! SEE THE [OFFICIAL COOKBOOK][cb] INSTEAD *
+
 A simplified elasticsearch cookbook designed to produce
 the minimum viable configuration, while still providing
 enough flexibility to drive a more complex configuration.
@@ -38,3 +40,7 @@ provides elasticsearch service resource
 performs the same operations as the default recipe, after
 adding setting simple cluster configuration attributes
 based on search results.
+
+--
+
+[cb]: https://github.com/elastic/cookbook-elasticsearch
