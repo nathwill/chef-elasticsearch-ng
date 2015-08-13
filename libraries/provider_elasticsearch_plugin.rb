@@ -1,6 +1,6 @@
 class Chef::Provider
   class ElasticsearchPlugin < Chef::Provider::LWRPBase
-    use_inline_resource
+    use_inline_resources
 
     def whyrun_supported?
       true
